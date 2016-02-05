@@ -15,7 +15,12 @@ gdx.getGameUrl('giants', function(err, url){
 })
 ```
 
-#Example Output
+## Installation
+```
+  npm intall mlb-scores
+```
+
+## Example Output
 ```json
 {
     "home_team_runs": "5",
