@@ -1,0 +1,30 @@
+{
+  "name": "mlb-scores",
+  "version": "1.0.0",
+  "description": "Download MLB Scores easily",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewKe/mlb-scores.git"
+  },
+  "keywords": [
+    "mlb",
+    "scores",
+    "baseball",
+    "gdx",
+    "sports",
+    "game",
+    "data",
+    "boxscore",
+    "live"
+  ],
+  "author": "Andrew Ke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewKe/mlb-scores/issues"
+  },
+  "homepage": "https://github.com/AndrewKe/mlb-scores#readme"
+}
