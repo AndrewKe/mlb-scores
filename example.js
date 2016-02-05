@@ -1,9 +1,9 @@
-gdx = require('./gdx.js');
+mlb = require('./mlb-scores.js');
 
-gdx.getGameUrl('giants', new Date(2015,6, 11), function(err, url){
+mlb.getGameUrl('giants', new Date(2015,6, 11), function(err, url){
   if (!err){
-    gdx.getGameInfo(url, function(err, data){
-      console.log(data);
+    mlb.getGameInfo(url, function(err, data){
+      console.log(JSON.stringify(data, null, 4));
     });
   }
 })
